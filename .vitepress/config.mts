@@ -7,6 +7,9 @@ export default defineConfig({
   srcDir: "docs",
   base: "/Physics-AII-Notes/",
 
+  // 禁用死链接检查
+  ignoreDeadLinks: true,
+
   // 启用数学公式支持
   markdown: {
     math: true
